@@ -471,12 +471,17 @@ img{
 } 
 
 .subscribe-form-input{
+    color: #FFF;
     width: 264px;
     height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border-radius: 4px;
-    border: 1px solid #FFF;
-    background-color: #2E2F42;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #fffff;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -487,7 +492,7 @@ img{
 }
 
 .subscribe-form-input::placeholder{
-    color: #FFF;
+    color: #fffff;
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
